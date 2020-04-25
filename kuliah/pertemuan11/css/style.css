@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+  background-color: whitesmoke;
+}
+h3{
+  color: #00bcd4;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+td a{
+  text-decoration: none;
+}
+td{
+  font-size: 20px;
+}
+tr{
+  background-color: #43b8c9;
+}
+tr:nth-child(even){
+  background-color: white;
+}
+th{
+  background-color: #30475e;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+  padding: 10px;
+  border: 1px solid black;
+}
+img{
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+  padding: 10px;
+  border: 1px solid grey;
+}
+button{
+  background-color: #00bcd4;
+  color: white;
+}
+button a{
+  text-decoration: none;
+}

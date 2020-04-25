@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  background-color: whitesmoke;
+}
+tr{
+  background-color: #43b8c9;
+}
+tr:nth-child(even){
+  background-color: white;
+}
+.ubah button{
+  background-color: #00bcd4;
+  color: white;
+}
+.hapus button{
+  color: white;
+  background-color: #c70039;
+}
+th{
+  background-color: #30475e;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+  padding: 10px;
+  border: 1px solid black;
+}
+img{
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+  padding: 10px;
+  border: 1px solid grey;
+}

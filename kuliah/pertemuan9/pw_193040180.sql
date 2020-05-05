@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2020 at 02:25 PM
+-- Generation Time: May 05, 2020 at 03:27 AM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -40,16 +40,16 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`, `gambar`) VALUES
-(1, 'Sandhika Galih', '043040023', 'sandhikagalih@unpas.ac.id', 'Teknik Informatika', 'sandhika.jpeg'),
-(2, 'Sugih Mohammad Galih', '193040180', '193040180@mail.unpas.ac.id', 'Teknik Informatika', 'sugih.jpeg'),
-(3, 'Mohammad Sugih', '193391121', 'mohammadsugih@gmail.com', 'Teknik Mesin', 'mohsugih.jpeg'),
+(1, 'Sandhika Galih', '043040023', 'sandhikagalih@unpas.ac.id', 'Teknik Informatika', 'sandhika.jpg'),
+(2, 'Sugih Mohammad Galih', '193040180', '193040180@mail.unpas.ac.id', 'Teknik Informatika', 'sugih.jpg'),
+(3, 'Mohammad Sugih', '193391121', 'mohsugih@gmail.com', 'Teknik Mesin', 'mohsugih.jpeg'),
 (4, 'Rifki Perdiansyah', '193040188', 'rifky@mail.unpas.ac.id', 'Teknik Industri', 'rifky.jpeg'),
 (5, 'Cahyadi Ivansyah', '193040123', 'ivan@mail.unpas.ac.id', 'Teknik Mesin', 'ivan.jpeg'),
 (6, 'Claudio', '193040179', 'claudio@mail.unpas.ac.id', 'Teknik Lingkungan', 'claudio.jpeg'),
 (7, 'Dio Geovani', '193040124', 'dio@mail.unpas.ac.id', 'Perencanaan Wilayah dan Kota', 'dio.jpeg'),
-(8, 'Bayu', '193040288', 'bayu@mail.unpas.ac.id', 'Teknologi Pangan', 'bayu.jpeg'),
-(9, 'Aldi', '193040021', 'aldi@mail.unpas.ac.id', 'Teknik Informatika', 'aldi.jpeg'),
-(10, 'Alip', '193040156', 'alip@mail.unpas.ac.id', 'Teknik Informatika', 'alip.jpeg');
+(8, 'Hermawan Arby', '193040161', 'hermawan@mail.unpas.ac.id', 'Teknik Informatika', 'arby.jpeg'),
+(9, 'Aldi Ageng', '193040054', 'aldi@mail.unpas.ac.id', 'Teknik Informatika', 'aldi.jpeg'),
+(10, 'Alip F', '193040158', 'alip@mail.unpas.ac.id', 'Teknik Informatika', 'alip.jpeg');
 
 --
 -- Indexes for dumped tables

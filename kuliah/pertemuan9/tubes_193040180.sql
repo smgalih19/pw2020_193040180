@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2020 at 02:26 PM
+-- Generation Time: May 05, 2020 at 03:28 AM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -41,14 +41,14 @@ CREATE TABLE IF NOT EXISTS `apparel` (
 
 INSERT INTO `apparel` (`id_apparel`, `display`, `jenis_apparel`, `merk`, `ukuran`, `harga`) VALUES
 (1, 'display1.jpg', 'Kaos Pria', 'Deus Ex Machina', 'M', 250000),
-(2, 'display2.jpg', 'Hoodie', 'Sch', 'S, M, L, XL', 350000),
+(2, 'display2.jpg', 'Hoodie Parachute', 'Sch', 'S, M, L, XL', 350000),
 (3, 'display3.jpg', 'Hoodie', 'Bloods', 'M, L, XL', 250000),
 (4, 'display4.jpg', 'Celana Jogger', 'DC', 'M, L, XL, XXL', 100000),
-(5, 'display5.jpg', 'Kaos Unisex', 'GreenLight', 'M, L', 120000),
-(6, 'display6.jpg', 'Kemeja', 'Alisan', 'M, L, XL', 125000),
+(5, 'display5.jpg', 'Kaos Unisex', 'Green Light', 'M, L', 150000),
+(6, 'display6.jpg', 'Kemeja', 'Alisan', 'M, L, XL', 220000),
 (7, 'display7.jpg', 'Sporhem', '3 Second', 'M, L', 115000),
 (8, 'display8.jpg', 'Jas Formal', 'Zara', 'S, M, L, XL, XXL', 1500000),
-(9, 'display9.jpg', 'Kaos', '3 Second', 'S, M, L', 99000),
+(9, 'display9.jpg', 'Kaos', '3 Second', 'S, M, L', 125000),
 (10, 'display10.jpg', 'Sporhem', 'Cardinal', 'S, M, L, XL', 250000);
 
 --

@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Courier Prime', monospace;
+}
+
+#form-registrasi {
+  width: 450px;
+  background: white;
+  padding: 30px 40px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  color: #30475e;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#form-registrasi label {
+  color: #848484;
+}
+
+.input {
+  color: #30475e;
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 30px 0;
+}
+
+.input input {
+  font-size: 20px;
+  color: #30475e;
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.registrasi {
+  display: block;
+  width: 50%;
+  height: 50px;
+  border: none;
+  background-color: #30475e;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin: 10px 90px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Courier Prime', monospace;
+}

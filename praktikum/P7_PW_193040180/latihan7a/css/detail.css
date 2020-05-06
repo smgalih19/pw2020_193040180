@@ -1,0 +1,35 @@
+body {
+    background-color: #00bcd4;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.keterangan {
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.keterangan span {
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.tombol-kembali {
+    background-color: #66bae6;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: 1px solid grey;
+}

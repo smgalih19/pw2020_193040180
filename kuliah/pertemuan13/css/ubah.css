@@ -1,0 +1,43 @@
+body {
+  background-color: #77d8d8;
+}
+
+form {
+  font-size: 20px;
+  color: #363636;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #363636;
+  font-size: larger;
+}
+
+button {
+  color: white;
+  background: #3b6978;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+input[type=text] {
+  padding: 6px 28px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+}
+
+input[type=text]:focus {
+  background-color: #84a9ac;
+  color: white;
+}
+
+.ubah {
+  cursor: pointer;
+}
+
+.submit {
+  cursor: pointer;
+  margin-left: 22px;
+}

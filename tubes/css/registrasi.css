@@ -1,11 +1,11 @@
 body {
-  background-color: #00bcd4;
+  background-color: whitesmoke;
   font-family: 'Courier Prime', monospace;
 }
 
 .registrasi {
   width: 450px;
-  background: whitesmoke;
+  background: white;
   padding: 30px 40px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;

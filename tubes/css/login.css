@@ -1,10 +1,10 @@
 body {
-  background-color: #00bcd4;
+  background-color: whitesmoke
 }
 
 .login {
   width: 450px;
-  background: whitesmoke;
+  background: white;
   padding: 15px 40px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;

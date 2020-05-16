@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: whitesmoke;
+  margin-bottom: 100px;
+}
+
+tr {
+  background-color: #43b8c9;
+  color: white;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+}
+
+th {
+  background-color: #30475e;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border: 1px solid black;
+}
+
+img {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border: 2px solid grey;
+}
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}

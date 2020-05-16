@@ -141,13 +141,14 @@ if (isset($_POST['cari'])) {
           </div>
           <div class="col-md-4 footer-box">
             <p><b>SOCIAL MEDIA</b></p>
-            <p><img src="../assets/img/icon_sosmed/icon_instagram.png" class="icon"><a href="https://www.instagram.com/sempatpanick_/" target="_blank"> @sempatpanick_</a></p>
-            <p><img src="../assets/img/icon_sosmed/icon_facebook.png" class="icon"><a href="https://web.facebook.com/SugihMohammadGalih" target="_blank"> Sugih Mohammad</a></p>
-            <p><img src="../assets/img/icon_sosmed/icon_twitter.png" class="icon"><a href="https://twitter.com/SugihMohammadG1" target="_blank"> @sempatngetwit</a></p>
+            <p><img src="../assets/img/icon_sosmed/icon_instagram.png" class="icon"> @sugih_apparel</p>
+            <p><img src="../assets/img/icon_sosmed/icon_facebook.png" class="icon"> Sugih Apparel Pnd</p>
+            <p><img src="../assets/img/icon_sosmed/icon_twitter.png" class="icon"> @sapparel</p>
           </div>
           <div class="copyright col text-center">
             <hr>
-            <p>Created by Sempat Panick. Copyright 2020.</p>
+            <p>Created by <a href="https://www.instagram.com/sempatpanick_/" target="_blank">@sempatpanick.</a> Copyright
+              2020.</p>
           </div>
         </div>
       </div>

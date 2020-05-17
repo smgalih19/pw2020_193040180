@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
 .login {
@@ -68,7 +68,7 @@ body {
   cursor: pointer;
   margin: 20px 110px 10px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-family: 'Courier Prime', monospace;
 }

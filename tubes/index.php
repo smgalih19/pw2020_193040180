@@ -91,7 +91,7 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                 <?php endif; ?>
                 </div>
                 <div class="all-product">
-                    <a class="btn btn-outline-dark rounded-pill" href="php/allproduct.php" role="button"> ALL PRODUCT </a>
+                    <a class="btn btn-outline-dark rounded-pill" href="php/allproduct.php" role="button"><b>ALL PRODUCT</b></a>
                 </div>
         </div>
     </section>
@@ -105,7 +105,7 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                     <div class="isi mt-5 mb-5">
                         <h3>about <span>sugih apparel</span></h3>
                         <p>
-                            Sugih Apparel Merupakan Website Pembelian Apparel Secara Online, Berawal dari keinginan seorang
+                            Sugih Apparel Website Pembelian Apparel Secara Online, Berawal dari keinginan seorang
                             pemuda yang ingin menghasilkan sesuatu produk yang berkualitas tinggi dimana dengan harga yang terjangkau.
                         </p>
                     </div>
@@ -127,7 +127,7 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                         <p>Pangandaran, West Java, Indonesia</p>
                     </div>
                     <div class="col-md-4 footer-box">
-                        <p><b>PAYMENT</b></p>
+                        <p><b> PAYMENT</b></p>
                         <p><img src="assets/img/icon_payment/bank_bri.png" class="icon"> BANK BRI</p>
                         <p><img src="assets/img/icon_payment/bank_bca.png" class="icon"> BANK BCA</p>
                         <p><img src="assets/img/icon_payment/bank_bjb.png" class="icon"> BANK BJB</p>

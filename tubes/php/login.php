@@ -82,9 +82,9 @@ if (isset($_POST['submit'])) {
       <input type="checkbox" name="remember">
       <label for="remember">Remember me</label>
     </div>
-    <button type="submit" name="submit" class="submit">Login</button>
+    <button type="submit" name="submit" class="submit">LOGIN</button>
     <?php if (isset($error)) : ?>
-      <p style="color: red; font-style: italic;">Username atau Password salah</p><br>
+      <p style="color: red; font-style: italic;">Username atau Password salah!</p><br>
     <?php endif; ?>
     <div class="registrasi">
       <p>Belum punya akun ? Registrasi <a href="registrasi.php">Disini</a></p>

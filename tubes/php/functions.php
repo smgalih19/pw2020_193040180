@@ -106,6 +106,7 @@ function hapus($id)
     if ($apr['display'] != 'noimage.jpg') {
         unlink('../assets/img/product/' . $apr['display']);
     }
+
     mysqli_query($conn, "DELETE FROM apparel WHERE id_apparel = $id") or die(mysqli_error($conn));
     return mysqli_affected_rows($conn);
 }

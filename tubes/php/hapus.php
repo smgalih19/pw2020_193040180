@@ -13,12 +13,12 @@ $id = $_GET['id_apparel'];
 if (hapus($id) > 0) {
   $conn = koneksi();
   echo "<script>
-          alert('Data Berhasil dihapus!');
+          alert('Data Berhasil Dihapus!');
           document.location.href = 'admin.php';
         </script>";
 } else {
   echo "<script>
-          alert('Data Gagal dihapus!');
+          alert('Data Gagal Dihapus!');
           document.location.href = 'admin.php';
         </script>";
 }

@@ -112,8 +112,8 @@ if (isset($_POST['cari'])) {
           <div class="isi mt-5 mb-5">
             <h3>about <span>sugih apparel</span></h3>
             <p>
-              Sugih Apparel Merupakan Website Pembelian Apparel Secara Online, Berawal dari keinginan seorang
-              pemuda yang ingin menghasilkan sesuatu produk yang menarik dimana dengan harga yang terjangkau.
+              Sugih Apparel Website Pembelian Apparel Secara Online, Berawal dari keinginan seorang
+              pemuda yang ingin menghasilkan sesuatu produk yang berkualitas tinggi dimana dengan harga yang terjangkau.
             </p>
           </div>
         </div>

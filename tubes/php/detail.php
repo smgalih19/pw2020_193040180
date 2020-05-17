@@ -39,11 +39,6 @@ $apparel = query("SELECT * FROM apparel WHERE id_apparel = $id")[0];
             margin-top: 100px;
         }
 
-        img {
-            box-shadow: 3px 3px 5px rgba(0, 0, 0, 5);
-            padding: 10px;
-        }
-
         .detail {
             margin-bottom: 50px;
         }
@@ -96,7 +91,7 @@ $apparel = query("SELECT * FROM apparel WHERE id_apparel = $id")[0];
             </div>
             <div class="row justify-content-center text-dark">
                 <div class="col-md-5 text-center mb-3">
-                    <img src="../assets/img/product/<?= $apparel["display"]; ?>" class="img-thumbnail" width="300">
+                    <img src="../assets/img/product/<?= $apparel["display"]; ?>" class="img-thumbnail shadow-lg p-3 mb-5 bg-white rounded" width="300">
                 </div>
                 <div class="col-md-5 text-left">
                     <h1><span><?= $apparel["jenis_apparel"]; ?></span></h1>

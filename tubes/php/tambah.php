@@ -35,6 +35,10 @@ if (isset($_POST['tambah'])) {
     body {
       background-color: #00bcd4;
     }
+
+    hr {
+      background-color: white;
+    }
   </style>
 </head>
 
@@ -43,6 +47,7 @@ if (isset($_POST['tambah'])) {
     <div class="row pt-5 mb-4">
       <div class="col text-center text-white">
         <h3>FORM TAMBAH DATA APPAREL</h3>
+        <hr>
       </div>
     </div>
 

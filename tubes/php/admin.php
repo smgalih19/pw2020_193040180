@@ -48,11 +48,11 @@ if (isset($_GET['cari'])) {
                         <input type="text" name="keyword" size="25" class="keyword form-control mr-sm-2" autofocus placeholder="Masukan keyword pencarian.." autocomplete="off">
                         <button type="submit" name="cari" class="tombol-cari-admin btn btn-outline-info mr-2">Cari</button>
                     </form>
-                    <a href="logout.php">
-                        <button type="" class="admin btn btn-outline-danger mr-2 mt-2 mb-2">Logout</button>
-                    </a>
                     <a href="tambah.php">
-                        <button type="" class="tambah btn btn-outline-primary mt-2 mb-2">Tambah Data</button>
+                        <button type="" class="tambah btn btn-outline-primary mr-2 mt-2 mb-2">Tambah Data</button>
+                    </a>
+                    <a href="logout.php">
+                        <button type="" class="admin btn btn-outline-danger mt-2 mb-2">Logout</button>
                     </a>
                 </div>
             </div>

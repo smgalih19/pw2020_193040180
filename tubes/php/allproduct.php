@@ -32,7 +32,7 @@ if (isset($_POST['cari'])) {
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="../index.php">Home</a>
@@ -41,7 +41,7 @@ if (isset($_POST['cari'])) {
             <a class="nav-link" href="#product">Best Item</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#aboutme">About Us</a>
           </li>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,9 +51,9 @@ if (isset($_POST['cari'])) {
             <button type="submit" name="cari" class="tombol-cari btn btn-outline-dark mr-2">Cari</button>
           </form>
           <a href="../php/login.php">
-            <button type="" class="admin btn btn-outline-dark mr-2">Login</button>
+            <button type="" class="admin btn btn-outline-dark mt-2 mr-2 mb-2">Login</button>
             <a href="../php/registrasi.php">
-              <button type="" class="btn btn-outline-dark">Registrasi</button>
+              <button type="" class="btn btn-outline-dark mt-2 mb-2">Registrasi</button>
             </a>
           </a>
         </div>
@@ -84,7 +84,7 @@ if (isset($_POST['cari'])) {
         <?php else : ?>
           <div class="row text-center text-white">
             <?php foreach ($apparel as $apr) : ?>
-              <div class="col-md-3 mt-1">
+              <div class="col-md-3 mt-1 mb-3">
                 <div class="card mt-2 img-thumbnail bg-dark">
                   <img class="card-img-top" src="../assets/img/product/<?= $apr['display']; ?>" width="300">
                   <div class="card-body">
@@ -105,6 +105,7 @@ if (isset($_POST['cari'])) {
   <!-- Akhir Product -->
 
   <!-- Awal About -->
+  <div id="aboutme"></div>
   <section id="about" class="about">
     <div class="container text-center mt-5">
       <div class="row justify-content-center about-us">

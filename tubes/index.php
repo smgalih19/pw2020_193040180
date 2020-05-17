@@ -37,16 +37,16 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                         <a class="nav-link" href="#product">Best Item</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#aboutme">About Us</a>
                     </li>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav ml-auto">
                     <a href="php/login.php">
-                        <button type="" class="admin btn btn-outline-dark mr-2">Login</button>
+                        <button type="" class="admin btn btn-outline-dark mt-2 mr-2 mb-2">Login</button>
                     </a>
                     <a href="php/registrasi.php">
-                        <button type="" class="btn btn-outline-dark">Registrasi</button>
+                        <button type="" class="btn btn-outline-dark mt-2 mb-2">Registrasi</button>
                     </a>
                 </div>
             </div>
@@ -91,13 +91,14 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                 <?php endif; ?>
                 </div>
                 <div class="all-product">
-                    <a class="btn btn-outline-dark rounded-pill" href="php/allproduct.php" role="button"><b>ALL PRODUCT</b></a>
+                    <a class="btn btn-outline-dark rounded-pill mb-3" href="php/allproduct.php" role="button"><b>ALL PRODUCT</b></a>
                 </div>
         </div>
     </section>
     <!-- Akhir Product -->
 
     <!-- Awal About -->
+    <div id="aboutme"></div>
     <section id="about" class="about">
         <div class="container text-center mt-5">
             <div class="row justify-content-center about-us">

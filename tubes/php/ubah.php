@@ -37,6 +37,10 @@ if (isset($_POST['ubah'])) {
     body {
       background-color: #00bcd4;
     }
+
+    hr {
+      background-color: white;
+    }
   </style>
   <title>Form Ubah Data Apparel</title>
 </head>
@@ -46,6 +50,7 @@ if (isset($_POST['ubah'])) {
     <div class="row pt-5 mb-4">
       <div class="col text-center text-white">
         <h3>FORM UBAH DATA APPAREL</h3>
+        <hr>
       </div>
     </div>
 

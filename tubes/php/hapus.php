@@ -8,9 +8,9 @@ if (!isset($_SESSION["username"])) {
 
 require 'functions.php';
 
-$apr = $_GET['id_apparel'];
+$id = $_GET['id_apparel'];
 
-if (hapus($apr) > 0) {
+if (hapus($id) > 0) {
   $conn = koneksi();
   echo "<script>
           alert('Data Berhasil dihapus!');

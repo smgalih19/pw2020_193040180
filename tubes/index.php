@@ -61,7 +61,7 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
             <p class="lead">Apparel <span>terpercaya</span> dengan <span>kualitas terbaik</span> dan <span>harga terjangkau</span></p>
         </div>
         <div class="button">
-            <a class="btn btn-outline-light" href="#product" role="button">Yukk Belanja</a>
+            <a class="btn btn-outline-light rounded-pill" href="#product" role="button">Yukk Belanja</a>
         </div>
     </div>
     <!-- Akhir Jumbotron -->
@@ -91,7 +91,7 @@ $apparel = query("SELECT * FROM apparel ORDER by id_apparel ASC LIMIT 4");
                 <?php endif; ?>
                 </div>
                 <div class="all-product">
-                    <a class="btn btn-outline-dark" href="php/allproduct.php" role="button"> ALL PRODUCT </a>
+                    <a class="btn btn-outline-dark rounded-pill" href="php/allproduct.php" role="button"> ALL PRODUCT </a>
                 </div>
         </div>
     </section>

@@ -98,11 +98,15 @@ function tambah($data)
     return mysqli_affected_rows($conn);
 }
 
-function hapus($apr)
+function hapus($id)
 {
     $conn = koneksi();
-    mysqli_query($conn, "DELETE FROM apparel WHERE id_apparel = $apr");
 
+    $apr = query("SELECT * FROM apparel WHERE id_apparel = $id")[0];
+    if ($apr['display'] != 'noimage.jpg') {
+        unlink('../assets/img/product/' . $apr['display']);
+    }
+    mysqli_query($conn, "DELETE FROM apparel WHERE id_apparel = $id") or die(mysqli_error($conn));
     return mysqli_affected_rows($conn);
 }
 

@@ -69,7 +69,7 @@ if (isset($_POST['cari'])) {
       <p class="lead">Apparel <span>terpercaya</span> dengan <span>kualitas terbaik</span> dan <span>harga terjangkau</span></p>
     </div>
     <div class="button">
-      <a class="btn btn-outline-light" href="#product" role="button">ALL PRODUCT</a>
+      <a class="btn btn-outline-light rounded-pill" href="#product" role="button">ALL PRODUCT</a>
     </div>
   </div>
   <!-- Akhir Jumbotron -->
@@ -122,7 +122,7 @@ if (isset($_POST['cari'])) {
   </section>
   <!-- Akhir About -->
 
-  <!-- awal footer -->
+  <!-- Awal Footer -->
   <section class="footer">
     <footer class="bg-dark text-white">
       <div class="container footer">
@@ -154,9 +154,9 @@ if (isset($_POST['cari'])) {
       </div>
     </footer>
   </section>
-  <!-- akhir footer -->
+  <!-- Akhir Footer -->
 
-  <!-- smooth scroll -->
+  <!-- Smooth Scroll -->
   <script src="../js/smooth-scroll.js"></script>
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
